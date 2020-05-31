@@ -1,0 +1,11 @@
+
+
+// Enable telemetry collection with Application Insights
+var ai = require('applicationinsights');
+ai.setup(process.env.APPLICATIONINSIGHTSKEY || 'c654ab6e-a883-4293-858e-ac2313aaecb1').start();*.js.map
+*.ts
+.git*
+.vscode
+local.settings.json
+test
+tsconfig.json
